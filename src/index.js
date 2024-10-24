@@ -5,15 +5,17 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 import './index.css';
 import App from './App';
 import HomePage from './assets/pages/Homepage';
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter, BrowserRouter } from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    {/* <BrowserRouter> */}
+    <HashRouter>
       <App />
-    </BrowserRouter>
+    </HashRouter>
+    {/* </BrowserRouter> */}
     {/* <HomePage /> */}
   </React.StrictMode>
 );
