@@ -16,8 +16,8 @@ const Navbar = () => {
                     {/* <p className="navmenuitem"><Link to="/">Home</Link></p>
                     <p className="navmenuitem"><Link to="/about">About Me</Link></p> */}
 
-                    <p className="navmenuitem"><a href="/">Home</a></p>
-                    <p className="navmenuitem"><a href="/about">About Me</a></p>
+                    <p className="navmenuitem"><a href="/iceworks/#/">Home</a></p>
+                    <p className="navmenuitem"><a href="/iceworks/#/about">About Me</a></p>
                 </div>
             </div>
         </div>
