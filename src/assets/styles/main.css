@@ -1,0 +1,64 @@
+.navMenu{
+    margin-bottom: 3rem;
+    margin-left: 1%;
+}
+.bi.bi-list {
+    font-size: 250%;
+    color: grey;
+    padding-bottom: -10px;
+    border-radius: 10px;
+}
+.bi.bi-list:hover {
+    transition: all 0.01s ease-in-out;
+    box-shadow: 0px 2px 5px rgb(249, 247, 126);
+}
+.App {
+    height: 100vh;
+    width: 100vw;
+    overflow: auto;
+    _background-color: #000000;
+    _background-image: linear-gradient(19deg, #000000 0%, #8400c1 100%);
+    background: linear-gradient(300deg,#29004a,#000000,#140000,#000000,#00003f);
+    background-size: 240% 240%;
+    animation: gradient-animation 10s ease infinite;
+    align-items: center;
+}
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+.offcanvas-header{
+    background-color: #000000;
+    font-weight: 600;
+    border-bottom: 1px solid rgb(255, 253, 121);
+}
+.offcanvas-title{
+    color: rgb(221, 219, 101);
+    font-size: xx-large;
+    font-weight: 600;
+}
+.offcanvas-body.large {
+    background-color: black;
+    background: linear-gradient(300deg,#29004a,#000000,#140000,#000000,#00003f);
+    background-size: 240% 240%;
+    animation: gradient-animation 10s ease infinite;
+}
+a {
+    text-decoration: none;
+    font-size: larger;
+}
+a:hover {
+    color: rgb(169, 168, 76);
+}
+
