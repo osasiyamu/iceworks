@@ -2,9 +2,14 @@ button {
     height: 8rem;
 }
 .aboutme {
-    margin-top: 5%;
+    margin-top: 3%;
     margin-left: 5%;
     width: 90%;
+}
+.aboutMeTitle {
+    color: rgb(169, 168, 76);
+    font-size: xx-large;
+    /* margin-bottom: 5%; */
 }
 .nav {
     margin-left: 0%;

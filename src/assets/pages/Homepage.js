@@ -1,11 +1,11 @@
 import '../styles/main.css';
 import '../styles/home.css';
 import photography from '../images/photography.webp';
-import photography1 from '../images/photography1.jpg'
+// import photography1 from '../images/photography1.jpg'
 import music from '../images/music.png';
 import project from '../images/project.webp'
-import music1 from '../images/music_stale.png';
-import Navbar from './Navbar';
+// import music1 from '../images/music_stale.png';
+// import Navbar from './Navbar';
 
 import { useNavigate } from "react-router-dom";
 

@@ -1,7 +1,7 @@
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 const Navbar = () => {
     return ( 
-        <div className="navMenu">
+        <div className="navMenu" id="navMenu">
             
             <div class="" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasLeft" aria-controls="offcanvasLeft">
                 <i class="bi bi-list bi-xl"></i>
@@ -17,7 +17,7 @@ const Navbar = () => {
                     <p className="navmenuitem"><Link to="/about">About Me</Link></p> */}
 
                     <p className="navmenuitem"><a href="/iceworks/#/">Home</a></p>
-                    <p className="navmenuitem"><a href="/iceworks/#/about">About Me</a></p>
+                    <p className="navmenuitem"><a href="/iceworks/#/about" >About Me</a></p>
                 </div>
             </div>
         </div>

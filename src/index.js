@@ -4,8 +4,8 @@ import 'bootstrap/dist/css/bootstrap.css';
 import "bootstrap-icons/font/bootstrap-icons.css";
 import './index.css';
 import App from './App';
-import HomePage from './assets/pages/Homepage';
-import { HashRouter, BrowserRouter } from 'react-router-dom';
+// import HomePage from './assets/pages/Homepage';
+import { HashRouter} from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

@@ -1,6 +1,8 @@
 .navMenu{
     margin-bottom: 3rem;
     margin-left: 1%;
+    position: fixed;
+    z-index: 1000w;
 }
 .bi.bi-list {
     font-size: 250%;

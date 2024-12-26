@@ -1,0 +1,61 @@
+.searchmeup {
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: white;
+}
+
+#backsmu {
+    color: rgb(115, 115, 115);
+    font-size: 2rem;
+    width: 5rem;
+    height: 2rem;
+    margin-left: -4.8rem;
+    /* position:fixed; */
+}
+
+#backsmu:hover {
+    /* text-decoration: none; */
+    /* color: black; */
+    box-shadow: 0px 10px 20px rgb(92, 92, 34);
+}
+
+.goBack {
+}
+
+.nav-link.smu, .page-link.smu{ /*It affects the button in the about page*/
+    height: 2rem;
+    width: 6rem;
+    color: white;
+}
+
+.tab-content.searchmeup {/*affects the contents of the section in the about page*/
+    /* margin-left: 0%; */
+    /* height: 100vh; */
+    background-color: black;
+    box-shadow: 0px 10px 30px rgb(92, 92, 34);
+}
+
+.card.mb-3 {
+    height: 33.0rem;
+    width: 99%;
+}
+.col-md-8 img{
+    margin-top: 1%;
+    margin-left: 2%;
+    border-radius: 25px;
+    height: 32rem;
+    /* width: 10%; */
+}
+.card-body {
+    color: rgb(255, 255, 255);
+    margin-left: 5%;
+    width: 100%;
+}
+.card.mb-3{
+    background-color: black;
+}
+.title {
+    font-size: x-large;
+}
+

@@ -1,10 +1,14 @@
 import '../styles/about.css';
-import carletonLogo from '../images/carletonlogo.png';
+// import carletonLogo from '../images/carletonlogo.png';
 import carletonLogo2 from '../images/carletonlogo2.png';
 
 const About = () => {
     return ( 
         <div className="aboutme">
+
+            <p className='aboutMeTitle'>About Me</p>
+            <hr style={{'color': 'white', 'marginTop': '-1%', 'marginBottom': '3%'}} />
+
             <nav class="nav nav-pills flex-column flex-sm-row">
                 <button class="flex-sm-fill fs-4 text-sm-center nav-link active" data-bs-toggle="tab" data-bs-target="#quicksummary-tab-pane" type="button" role="tab" aria-controls="quicksummary-tab-pane" aria-selected="true">Quick Summary</button>
                 <button class="flex-sm-fill fs-4 text-sm-center nav-link" data-bs-toggle="tab" data-bs-target="#education-tab-pane" type="button" role="tab" aria-controls="education-tab-pane" aria-selected="true">Education</button>
@@ -110,7 +114,7 @@ const About = () => {
                     <strong>UNOFlip-clone Application (School Project)</strong>
                     <strong className="date">September 2023 – December 2023</strong><br></br>
                     <i><strong>Languages and tools: </strong>Java, Swing, jUnit5, IntelliJ IDEA</i><br />
-                    <strong>Website: </strong><a href="">GitHub Repo</a><br></br>
+                    <strong>Website: </strong><a href="#">GitHub Repo</a><br></br>
                     <br />
 
                     - Created a UNO Flip clone application utilizing object-oriented programming (OOP) principles. <br></br>
