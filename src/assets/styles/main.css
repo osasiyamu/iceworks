@@ -40,14 +40,24 @@
 body{
     font-family: 'Courier New', Courier, monospace;
 }
+.offcanvas.offcanvas-start{
+    width: 25%;
+    /* position: relative; */
+    /* z-index: 1060; */
+    /* margin-top: -47%; */
+    /* margin-left: -10%; */
+    /* border: 2px solid white; */
+    border-radius: 25px;
+}
 .offcanvas-header{
     background-color: #000000;
     font-weight: 600;
+    /* font-size: 100%; */
     border-bottom: 1px solid rgb(255, 253, 121);
 }
 .offcanvas-title{
     color: rgb(221, 219, 101);
-    font-size: xx-large;
+    font-size: 150%;
     font-weight: 600;
 }
 .offcanvas-body.large {
@@ -55,6 +65,7 @@ body{
     background: linear-gradient(300deg,#29004a,#000000,#140000,#000000,#00003f);
     background-size: 240% 240%;
     animation: gradient-animation 10s ease infinite;
+    font-size: 100%;
 }
 a {
     text-decoration: none;
@@ -63,4 +74,18 @@ a {
 a:hover {
     color: rgb(169, 168, 76);
 }
+.navmenuitem.links{
+    color: blue;
+    text-decoration: none;
+    font-size: larger;
+    cursor: pointer;
+}
 
+.navmenuitem.links:hover {
+    color: rgb(169, 168, 76);
+}
+
+hr, img {
+  /* position: relative; Reset position to avoid interfering */
+  /* z-index: 1; Ensure it doesn’t overlap */
+}

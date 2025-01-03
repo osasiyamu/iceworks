@@ -6,6 +6,8 @@ import Music from './assets/pages/music/Music';
 import Projects from './assets/pages/projects/Projects';
 import Photography from './assets/pages/photography/Photography';
 import SearchMeUp from './assets/pages/projects/SearchMeUp/SearchMeUp';
+import ArtConnect from './assets/pages/projects/ArtConnect/ArtConnect';
+import IceCuts from './assets/pages/projects/IceCuts/IceCuts';
 import SurveyMonkey from './assets/pages/projects/SurveyMonkey/SurveyMonkey';
 
 function App() {
@@ -23,6 +25,8 @@ function App() {
           <Route path='/photography' element={<Photography/>} />
 
 
+          <Route path='/artconnect' element={<ArtConnect/>} />
+          <Route path='/icecuts' element={<IceCuts/>} />
           <Route path='/searchmeup' element={<SearchMeUp/>} />
           <Route path='/surveymonkey' element={<SurveyMonkey/>} />
 

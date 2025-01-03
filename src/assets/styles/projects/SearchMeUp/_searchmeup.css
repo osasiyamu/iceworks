@@ -3,6 +3,7 @@
     margin-left: 5%;
     margin-right: 5%;
     color: white;
+    border: 2px solid white;
 }
 
 #backsmu {
@@ -10,8 +11,11 @@
     font-size: 2rem;
     width: 5rem;
     height: 2rem;
-    margin-left: -4.8rem;
-    /* position:fixed; */
+    /* border: 2px solid white; */
+    margin-top: 5%;
+    position: fixed;
+    /* position: relative; */
+    margin-left: 0%;
 }
 
 #backsmu:hover {
@@ -31,7 +35,7 @@
 
 .tab-content.searchmeup {/*affects the contents of the section in the about page*/
     /* margin-left: 0%; */
-    /* height: 100vh; */
+    height: 80vh;
     background-color: black;
     box-shadow: 0px 10px 30px rgb(92, 92, 34);
 }
@@ -40,15 +44,15 @@
     height: 33.0rem;
     width: 99%;
 }
-.col-md-8 img{
-    margin-top: 1%;
+.col-md-8.smu img{
+    margin-top: 12%;
     margin-left: 2%;
     border-radius: 25px;
-    height: 32rem;
-    /* width: 10%; */
+    height: 100%;
 }
-.card-body {
+.card-body.smu {
     color: rgb(255, 255, 255);
+    margin-top: 40%;
     margin-left: 5%;
     width: 100%;
 }

@@ -1,17 +1,16 @@
 import { useState } from 'react';
-// import '../../../styles/projects/SearchMeUp/searchmeup.css';
 import '../../../styles/projects/projectsummary.css';
-import homepage from '../../../images/projects/SearchMeUp/homepage.png';
-import signup from '../../../images/projects/SearchMeUp/signup.png';
-import databaaseconnection from '../../../images/projects/SearchMeUp/dbconnection.png';
-import signin from '../../../images/projects/SearchMeUp/signin.png';
-import search1 from '../../../images/projects/SearchMeUp/search1.png';
-import search2 from '../../../images/projects/SearchMeUp/search2.png';
-import test from '../../../images/projects/SearchMeUp/test.png';
+import homepage from '../../../images/projects/IceCuts/IceCutsHomePage.png';
+import teamSection from '../../../images/projects/IceCuts/TeamSection.png';
+import testimonialSection from '../../../images/projects/IceCuts/TestimonialSection.png';
+import stylesPrices from '../../../images/projects/IceCuts/StylesPrices.png';
+import bookingSection from '../../../images/projects/IceCuts/BookingSection.png';
+import bookingConfirmation from '../../../images/projects/IceCuts/BookingConfirmation.png';
+// import test from '../../../images/projects/IceCuts/test.png';
 import sampleimg from '../../../images/music_stale.png';
 import { useNavigate } from 'react-router';
 
-const SearchMeUp = () => {
+const IceCuts = () => {
     const navigate = useNavigate();
     const [currentTab, setCurrentTab] = useState(1);
 
@@ -24,19 +23,21 @@ const SearchMeUp = () => {
     };
 
     return ( 
-        <div>
-            <div className='projectBack' onClick={() => navigate('/projects')}><i className="bi bi-arrow-left-square-fill" id='back summarymary'></i></div>
+        <div className='testarrange'>
+            <div className='projectBack' onClick={() => navigate('/projects')}>
+                <i className="bi bi-arrow-left-square-fill"></i>
+            </div>
 
-            <div className='searchmeup'>
+            <div className='icecuts'>
 
-                <h5 className='searchmeupTitle'>SearchMeUp</h5>
-                
+                <h5 className='icecutsTitle'>IceCuts</h5>
+
                 <nav aria-label="Page navigation">
                     <ul className="nav nav-tabs justify-content-center" id="myTab" role="tablist">
                         <li className={`page-item ${currentTab === 1 ? 'disabled' : ''}`}>
                             <button className="page-link summary" onClick={handlePrevious}>Previous</button>
                         </li>
-                        {[1, 2, 3, 4, 5, 6, 7].map((tab) => (
+                        {[1, 2, 3, 4, 5, 6].map((tab) => (
                             <li className="page-item" key={tab}>
                                 <button 
                                     className={`nav-link summary ${currentTab === tab ? 'active' : ''}`}
@@ -54,7 +55,7 @@ const SearchMeUp = () => {
                         </li>
                     </ul>
 
-                    <div className="tab-content searchmeup">
+                    <div className="tab-content icecuts">
                         {/* Tab 1 */}
                         <div className={`tab-pane fade ${currentTab === 1 ? 'show active' : ''}`} id="tab-pane1" role="tabpanel" aria-labelledby="tab1">
                             <div className="card mb-3">
@@ -65,8 +66,8 @@ const SearchMeUp = () => {
                                     <div className="col-md-4">
                                         <div className="card-body summary">
                                             <h5 className="title">Homepage</h5>
-                                            <p className="card-text">Welcome to the homepage of Search Me Up. This page is designed to introduce users to the website with a warm and simple interface.
-                                            <br /><br />Note: This website used a database that has been terminated, hence functionality is limited. I will be going through a general overview and my contributions in the following slides.</p>
+                                            <p className="card-text">Welcome to IceCuts Homepage. A simple and elegant designed homepage to demonstrate my understanding of ucer centered design. <br />For a list of all the services, click the yellow button right there.
+                                            <br /><br />Note: There are no functionalities attached to this project as its sole purpose was user center design.</p>
                                             <p className="card-text"><small className="text-body-secondary">Last updated 2025-01-02</small></p>
                                         </div>
                                     </div>
@@ -79,12 +80,12 @@ const SearchMeUp = () => {
                             <div className="card mb-3">
                                 <div className="row g-0">
                                     <div className="col-md-8 summary">
-                                        <img src={signup} className="img-fluid" alt="Signup" />
+                                        <img src={teamSection} className="img-fluid" alt="teamSection" />
                                     </div>
                                     <div className="col-md-4">
                                         <div className="card-body summary">
-                                            <h5 className="title">Signup</h5>
-                                            <p className="card-text">From the navigation bar, users can either sign up or sign in to our website. My role in this section was setting up the database connections. AWS was used here</p>
+                                            <h5 className="title">About Us</h5>
+                                            <p className="card-text">On clicking the 'About Us' navigation up top, you are directed to a section on the page that introduces everyone on the team.</p>
                                             <p className="card-text"><small className="text-body-secondary">Last updated 2025-01-02</small></p>
                                         </div>
                                     </div>
@@ -97,12 +98,12 @@ const SearchMeUp = () => {
                             <div className="card mb-3">
                                 <div className="row g-0">
                                     <div className="col-md-8 summary">
-                                        <img src={databaaseconnection} className="img-fluid" alt="Signin" />
+                                        <img src={testimonialSection} className="img-fluid" alt="testimonialSection" />
                                     </div>
                                     <div className="col-md-4">
                                         <div className="card-body summary">
-                                            <h5 className="title">Database Connection</h5>
-                                            <p className="card-text">Setting up the AWS RDS for the project and ensuring that the connection to the instance was successful was my role.</p>
+                                            <h5 className="title">Testimonials</h5>
+                                            <p className="card-text">This section targetted to be directly under the team introduction lets users see all the past reviews in order to make a decision on who to book an appointment under.</p>
                                             <p className="card-text"><small className="text-body-secondary">Last updated 2025-01-02</small></p>
                                         </div>
                                     </div>
@@ -111,17 +112,17 @@ const SearchMeUp = () => {
                         </div>
 
                         {/* Tab 4 */}
-                        <div className={`tab-pane fade ${currentTab === 4 ? 'show active' : ''}`} id="tab-pane3" role="tabpanel" aria-labelledby="tab3">
+                        <div className={`tab-pane fade ${currentTab === 4 ? 'show active' : ''}`} id="tab-pane4" role="tabpanel" aria-labelledby="tab4">
                             <div className="card mb-3">
                                 <div className="row g-0">
                                     <div className="col-md-8 summary">
-                                        <img src={signin} className="img-fluid" alt="Signin" />
+                                        <img src={stylesPrices} className="img-fluid" alt="Sample" />
                                     </div>
                                     <div className="col-md-4">
                                         <div className="card-body summary">
-                                            <h5 className="title">Signin</h5>
-                                            <p className="card-text">If users are already in the database, they can succesfully sign into the website. 
-                                            If they are not, there are messages displayed for them to sign up</p>
+                                            <h5 className="title">Style Descriptions and Pricing</h5>
+                                            <p className="card-text">This section displays all the styles with their desciptions and their pricing. Remember the button on the homepage 'Click for our list of services'?
+                                            <br />Yeah, clicking on that brings you here.</p>
                                             <p className="card-text"><small className="text-body-secondary">Last updated 2025-01-02</small></p>
                                         </div>
                                     </div>
@@ -130,16 +131,17 @@ const SearchMeUp = () => {
                         </div>
 
                         {/* Tab 5 */}
-                        <div className={`tab-pane fade ${currentTab === 5 ? 'show active' : ''}`} id="tab-pane4" role="tabpanel" aria-labelledby="tab4">
+                        <div className={`tab-pane fade ${currentTab === 5 ? 'show active' : ''}`} id="tab-pane5" role="tabpanel" aria-labelledby="tab5">
                             <div className="card mb-3">
                                 <div className="row g-0">
                                     <div className="col-md-8 summary">
-                                        <img src={search1} className="img-fluid" alt="Sample" />
+                                        <img src={bookingSection} className="img-fluid" alt="Sample" />
                                     </div>
                                     <div className="col-md-4">
                                         <div className="card-body summary">
-                                            <h5 className="title">Search</h5>
-                                            <p className="card-text">On successful sign in and filtered by people or organization, a user can search for other user.</p>
+                                            <h5 className="title">Booking</h5>
+                                            <p className="card-text">This section displays an interface for booking an appointment. A style guide is provided beside the form to help client see what they should expecting.
+                                            <br /><br />For all the pricing and description of all the styles, click into the 'prices and description' beside the Style Guide.</p>
                                             <p className="card-text"><small className="text-body-secondary">Last updated 2025-01-02</small></p>
                                         </div>
                                     </div>
@@ -152,31 +154,12 @@ const SearchMeUp = () => {
                             <div className="card mb-3">
                                 <div className="row g-0">
                                     <div className="col-md-8 summary">
-                                        <img src={search2} className="img-fluid" alt="Sample" />
+                                        <img src={bookingConfirmation} className="img-fluid" alt="Sample" />
                                     </div>
                                     <div className="col-md-4">
                                         <div className="card-body summary">
-                                            <h5 className="title">Automatic Filter Search</h5>
-                                            <p className="card-text">On keyboard action, the search bar is developed to filter by the current value.</p>
-                                            <p className="card-text"><small className="text-body-secondary">Last updated 2025-01-02</small></p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        {/* Tab 7 */}
-                        <div className={`tab-pane fade ${currentTab === 7 ? 'show active' : ''}`} id="tab-pane5" role="tabpanel" aria-labelledby="tab5">
-                            <div className="card mb-3">
-                                <div className="row g-0">
-                                    <div className="col-md-8 summary">
-                                        <img src={test} className="img-fluid" alt="Sample" />
-                                    </div>
-                                    <div className="col-md-4">
-                                        <div className="card-body summary">
-                                            <h5 className="title">Test using Selenium</h5>
-                                            <p className="card-text">Selenium was used to test the browsers functionalities. The databse connection was tested and actions like sign up and sign in were tested. 
-                                            <br /><br />Due to time constraint, those were the only aspect of the application that were tested. </p>
+                                            <h5 className="title">Booking Confirmation</h5>
+                                            <p className="card-text">This page is displayed after a successful book. Details of the bookings are shown.</p>
                                             <p className="card-text"><small className="text-body-secondary">Last updated 2025-01-02</small></p>
                                         </div>
                                     </div>
@@ -184,8 +167,8 @@ const SearchMeUp = () => {
                             </div>
                         </div>
                         
-                        {/* Tab 8 */}
-                        <div className={`tab-pane fade ${currentTab === 8 ? 'show active' : ''}`} id="tab-pane6" role="tabpanel" aria-labelledby="tab6">
+                        {/* Tab 7 */}
+                        <div className={`tab-pane fade ${currentTab === 7 ? 'show active' : ''}`} id="tab-pane6" role="tabpanel" aria-labelledby="tab6">
                             <div className="card mb-3">
                                 <div className="row g-0">
                                     <div className="col-md-8 summary">
@@ -210,4 +193,4 @@ const SearchMeUp = () => {
     );
 }
 
-export default SearchMeUp;
+export default IceCuts;

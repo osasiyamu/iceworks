@@ -1,0 +1,61 @@
+.testarrange{
+    /* display: flex; */
+    /* flex-direction: row; */
+}
+.icecuts{
+    margin-top: 0.5%;
+    /* margin-left: 8%; */
+    width: 85vw;
+    /* border: 2px solid white; */
+}
+.tab-content.icecuts {
+    height: 80vh;
+    margin-left: -0.25%;
+    background-color: black;
+    box-shadow: 0px 10px 30px rgb(92, 92, 34);
+}
+.icecutsTitle{
+    color: rgb(169, 168, 76);
+    /* margin-left: 5%; */
+    margin-bottom: 2.5%;
+    font-size: xx-large;
+}
+.projectBack {
+    width: 5rem;
+    height: 2rem;
+    margin-left: 1%;
+    margin-top: 8.5%;
+    margin-bottom: -4%;
+    /* border: 2px solid white; */
+}
+.col-md-8.summary{
+    margin-top: 2.5%;
+    height: 120%;
+    width: 60%;
+    margin-left: 1.5%;
+    border: 2px solid white;
+}
+.col-md-8.summary img{
+    /* margin-top: 12%; */
+    /* margin-left: 2%; */
+    border-radius: 25px;
+    /* width: 90%; */
+    height: 100%;
+}
+
+.nav-link.summary, .page-link.summary{ /*It affects the button in the about page*/
+    height: 2rem;
+    width: 6rem;
+    color: white;
+}
+
+.card.mb-3 {
+    height: 33.0rem;
+    width: 99%;
+}
+.card-body.summary {
+    color: rgb(255, 255, 255);
+    margin-top: 40%;
+    margin-left: 5%;
+    width: 100%;
+}

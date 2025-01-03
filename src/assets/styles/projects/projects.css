@@ -1,5 +1,7 @@
 .projects {
-    margin-top: 3.099%;
+    /* margin-top: 3.099%; */
+    margin-top: 0.2%;
+    margin-left: 0.2%;
     /* padding-top: 2%; */
     /* border: 2px solid white; */
 }
@@ -20,7 +22,7 @@
 .goBack {
     width: 5rem;
     height: 2rem;
-    margin-left: 1.25%;
+    margin-left: 1%;
     /* margin-top: -5.5%; */
     margin-bottom: -4%;
 }
@@ -65,13 +67,19 @@
 }
 
 .project{
+    width: 100%;
     /* background-color: black; */
     margin-bottom: 8%;
+}
+.project.odd{
+    width: 100%;
 }
 
 .img-fluid.project.picture {
     height: 40rem;
+    height: 100%;
     width: 50rem;
+    width: 100%;
     border-radius: 25px;
 }
 
@@ -87,15 +95,19 @@
     align-items: center;
     color: rgb(169, 168, 76);
     /* text-align: center; */
-    margin-left: 15rem;
+    /* margin-left: 15rem; */
+    margin-left: 5%;
     margin-bottom: 3%;
-    width: 50rem;
-    font-size: 5rem;
+    width: 75%;
+    font-size: 280%;
 }
 
-.project.odd .col-md-8{
-    /* float: right; */
+/* .project.odd .col-md-8{
+    float: right;
     margin-left: -4.5%;
+} */
+.col-md-8{
+    margin-top: -3%;
 }
 
 .project.odd img{
@@ -112,4 +124,52 @@
 
 .description {
     margin-bottom: 5rem;
+}
+
+.card-title i {
+    font-size: x-large;
+}
+
+@media screen and (max-width: 767.78px) {
+    .projects {
+        margin-left: 5%;
+    }
+    .goBack{
+        margin-left: -4%;
+    }
+    .projectList{
+        width: 90%
+    }
+    .project.odd img{
+        /* float: right; */
+        margin-left: 0;
+    }
+    .col-md-8{
+        /* float: right; */
+        align-items: center;
+        margin-left: -5%;
+        color: white;
+    }
+    .card-body {
+        margin-left: 5%;
+        margin-right: 2%;
+        margin-top: 5%;
+        width: 100%;
+        color: white;
+        font-size: larger;
+        align-items: center;
+        text-align: center;
+    }
+    .card-title{
+        margin-left: 3rem;
+        text-align: center;
+        text-align: center;
+        align-items: center;
+        font-size: 150%;
+    }
+    .description {
+        /* color: white;
+        width: 100%; */
+        /* margin-left: -2rem; */
+    }
 }

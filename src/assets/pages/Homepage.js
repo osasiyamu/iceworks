@@ -28,29 +28,29 @@ const HomePage = () => {
 
                 <div className="catalogStyling">
                     <div className="card sideCatalog" onClick={handleMusic}>
-                        <p className="card-text">
+                        <div className="card-text">
                             <div className="catalogPicturesSide">
                                 <img className='pictureSide' src={music} alt="" />
                             </div>
                             <p>Music</p>
-                        </p>
+                        </div>
                     </div>
                     <div className="card middleCatalog" onClick={handleProjects}>
-                        <p className="card-text">
+                        <div className="card-text">
                             <div className="catalogPicturesMiddle">
                                 <img className='pictureMiddle' src={project} alt="" />
                             </div>
                             
-                            Projects
-                        </p>
+                            <p>Projects</p>
+                        </div>
                     </div>
                     <div className="card sideCatalog" onClick={handlePhotography}>
-                        <p className="card-text">
+                        <div className="card-text">
                             <div className="catalogPicturesSide">
                                 <img className='pictureSide' src={photography} alt="" />
                             </div>                           
                             <p>Photography</p>
-                        </p>
+                        </div>
                     </div>
 
                 </div>

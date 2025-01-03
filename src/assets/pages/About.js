@@ -7,18 +7,18 @@ const About = () => {
         <div className="aboutme">
 
             <p className='aboutMeTitle'>About Me</p>
-            <hr style={{'color': 'white', 'marginTop': '-1%', 'marginBottom': '3%'}} />
+            <hr className='aboutHr' style={{'color': 'white', 'marginBottom': '5%'}} />
 
-            <nav class="nav nav-pills flex-column flex-sm-row">
-                <button class="flex-sm-fill fs-4 text-sm-center nav-link active" data-bs-toggle="tab" data-bs-target="#quicksummary-tab-pane" type="button" role="tab" aria-controls="quicksummary-tab-pane" aria-selected="true">Quick Summary</button>
-                <button class="flex-sm-fill fs-4 text-sm-center nav-link" data-bs-toggle="tab" data-bs-target="#education-tab-pane" type="button" role="tab" aria-controls="education-tab-pane" aria-selected="true">Education</button>
-                <button class="flex-sm-fill fs-4 text-sm-center nav-link" data-bs-toggle="tab" data-bs-target="#skills-tab-pane" type="button" role="tab" aria-controls="skills-tab-pane" aria-selected="true">Skills</button>
-                <button class="flex-sm-fill fs-4 text-sm-center nav-link" data-bs-toggle="tab" data-bs-target="#projects-tab-pane" type="button" role="tab" aria-controls="projects-tab-pane" aria-selected="true">Projects</button>
-                <button class="flex-sm-fill fs-4 text-sm-center nav-link" data-bs-toggle="tab" data-bs-target="#experience-tab-pane" type="button" role="tab" aria-controls="experience-tab-pane" aria-selected="true">Experience</button>
+            <nav className="nav nav-pills flex-column flex-sm-row">
+                <button className="flex-sm-fill fs-4 text-sm-center nav-link active" data-bs-toggle="tab" data-bs-target="#quicksummary-tab-pane" type="button" role="tab" aria-controls="quicksummary-tab-pane" aria-selected="true">Quick Summary</button>
+                <button className="flex-sm-fill fs-4 text-sm-center nav-link" data-bs-toggle="tab" data-bs-target="#education-tab-pane" type="button" role="tab" aria-controls="education-tab-pane" aria-selected="true">Education</button>
+                <button className="flex-sm-fill fs-4 text-sm-center nav-link" data-bs-toggle="tab" data-bs-target="#skills-tab-pane" type="button" role="tab" aria-controls="skills-tab-pane" aria-selected="true">Skills</button>
+                <button className="flex-sm-fill fs-4 text-sm-center nav-link" data-bs-toggle="tab" data-bs-target="#projects-tab-pane" type="button" role="tab" aria-controls="projects-tab-pane" aria-selected="true">Projects</button>
+                <button className="flex-sm-fill fs-4 text-sm-center nav-link" data-bs-toggle="tab" data-bs-target="#experience-tab-pane" type="button" role="tab" aria-controls="experience-tab-pane" aria-selected="true">Experience</button>
             </nav>
 
-            <div class="tab-content" id="myTabContent">
-                <div class="tab-pane fade show active align-contents-center" id="quicksummary-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+            <div className="tab-content" id="myTabContent">
+                <div className="tab-pane fade show active align-contents-center" id="quicksummary-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabIndex="0">
                     <hr />
                     <strong className='d-flex justify-content-center'>Welcome</strong>
                     <hr />
@@ -27,7 +27,7 @@ const About = () => {
 
                     <hr />
                 </div>
-                <div class="tab-pane fade education" id="education-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+                <div className="tab-pane fade education" id="education-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabIndex="0">
                     <hr />
                     <div className="education">
                         <div>
@@ -41,7 +41,7 @@ const About = () => {
                     </div> 
                     <hr />
                 </div>
-                <div class="tab-pane fade" id="skills-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+                <div className="tab-pane fade" id="skills-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabIndex="0">
                     <hr />
                     <strong className='d-flex justify-content-center'>School Related</strong>
                     <hr />
@@ -58,7 +58,7 @@ const About = () => {
                     <strong>Photography: </strong> Beginner Level - still learning and improving <br />
                     <strong>Sports: </strong> Track and Field
                 </div>
-                <div class="tab-pane fade" id="projects-tab-pane" role="tabpanel" aria-labelledby="disabled-tab" tabindex="0">
+                <div className="tab-pane fade" id="projects-tab-pane" role="tabpanel" aria-labelledby="disabled-tab" tabIndex="0">
                     <hr />
                     <strong>ArtConnect</strong>
                     <strong className="date">June 2024 – July 2024</strong> <br></br>
@@ -169,7 +169,7 @@ const About = () => {
                     <hr />
                 </div>
 
-                <div class="tab-pane fade" id="experience-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+                <div className="tab-pane fade" id="experience-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabIndex="0">
                     <hr />
                     <strong className='d-flex justify-content-center'>Software Engineering</strong>
                     <hr />
