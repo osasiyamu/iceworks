@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/iceworks/static/css/main.33950298.css",
+    "main.css": "/iceworks/static/css/main.bae76995.css",
     "main.js": "/iceworks/static/js/main.db70ad27.js",
     "static/js/453.2dc588d2.chunk.js": "/iceworks/static/js/453.2dc588d2.chunk.js",
     "static/media/LanguageChange.png": "/iceworks/static/media/LanguageChange.abdf58e1abebad355845.png",
@@ -36,12 +36,12 @@
     "static/media/photography.webp": "/iceworks/static/media/photography.cedc5000548492e9ee2d.webp",
     "static/media/carletonlogo2.png": "/iceworks/static/media/carletonlogo2.d1a4560c0b57fbc74577.png",
     "index.html": "/iceworks/index.html",
-    "main.33950298.css.map": "/iceworks/static/css/main.33950298.css.map",
+    "main.bae76995.css.map": "/iceworks/static/css/main.bae76995.css.map",
     "main.db70ad27.js.map": "/iceworks/static/js/main.db70ad27.js.map",
     "453.2dc588d2.chunk.js.map": "/iceworks/static/js/453.2dc588d2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.33950298.css",
+    "static/css/main.bae76995.css",
     "static/js/main.db70ad27.js"
   ]
 }
