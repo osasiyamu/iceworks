@@ -1,22 +1,21 @@
 {
   "files": {
-    "main.css": "/iceworks/static/css/main.503d7d83.css",
-    "main.js": "/iceworks/static/js/main.db70ad27.js",
+    "main.css": "/iceworks/static/css/main.f1f5facd.css",
+    "main.js": "/iceworks/static/js/main.8375606c.js",
     "static/js/453.2dc588d2.chunk.js": "/iceworks/static/js/453.2dc588d2.chunk.js",
     "static/media/LanguageChange.png": "/iceworks/static/media/LanguageChange.abdf58e1abebad355845.png",
     "static/media/Discover.png": "/iceworks/static/media/Discover.da56d3b2f0569f6788e4.png",
     "static/media/Language.png": "/iceworks/static/media/Language.b9ba998b1ac6e4084fb5.png",
-    "static/media/Home.png": "/iceworks/static/media/Home.93e0a4a707c05a6e5d97.png",
     "static/media/LanguageChangeFilter.png": "/iceworks/static/media/LanguageChangeFilter.15c0c36dd4aaf310573e.png",
     "static/media/DiscoverFilter.png": "/iceworks/static/media/DiscoverFilter.1e235f5dfd4aba73f21e.png",
     "static/media/homepage.png": "/iceworks/static/media/homepage.707a7f7f9c108fc04a77.png",
     "static/media/Cart.png": "/iceworks/static/media/Cart.c2303a9beb459067c71f.png",
     "static/media/photography1.jpg": "/iceworks/static/media/photography1.30b72567112c9796c016.jpg",
     "static/media/TeamSection.png": "/iceworks/static/media/TeamSection.192ae3ad40ebb6c81284.png",
+    "static/media/test.png": "/iceworks/static/media/test.f15493bc6507576a4a46.png",
     "static/media/ArtConnectHome.png": "/iceworks/static/media/ArtConnectHome.509066c5fc012d4017c9.png",
     "static/media/music.png": "/iceworks/static/media/music.da8470a793a9d90b8dc1.png",
     "static/media/StylesPrices.png": "/iceworks/static/media/StylesPrices.f631973584576f5ac746.png",
-    "static/media/test.png": "/iceworks/static/media/test.f15493bc6507576a4a46.png",
     "static/media/music_stale.png": "/iceworks/static/media/music_stale.36dd7ce8e91b83471569.png",
     "static/media/BookingSection.png": "/iceworks/static/media/BookingSection.02c43fa2b34f7284ff83.png",
     "static/media/search1.png": "/iceworks/static/media/search1.6d9cd291fba5ac547492.png",
@@ -36,12 +35,12 @@
     "static/media/photography.webp": "/iceworks/static/media/photography.cedc5000548492e9ee2d.webp",
     "static/media/carletonlogo2.png": "/iceworks/static/media/carletonlogo2.d1a4560c0b57fbc74577.png",
     "index.html": "/iceworks/index.html",
-    "main.503d7d83.css.map": "/iceworks/static/css/main.503d7d83.css.map",
-    "main.db70ad27.js.map": "/iceworks/static/js/main.db70ad27.js.map",
+    "main.f1f5facd.css.map": "/iceworks/static/css/main.f1f5facd.css.map",
+    "main.8375606c.js.map": "/iceworks/static/js/main.8375606c.js.map",
     "453.2dc588d2.chunk.js.map": "/iceworks/static/js/453.2dc588d2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.503d7d83.css",
-    "static/js/main.db70ad27.js"
+    "static/css/main.f1f5facd.css",
+    "static/js/main.8375606c.js"
   ]
 }
