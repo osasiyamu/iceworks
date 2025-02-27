@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import '../../../styles/projects/projectsummary.css';
-import homepage from '../../../images/projects/ArtConnect/Home.png';
+import homepage from '../../../images/projects/ArtConnect/test.png';
 import discover from '../../../images/projects/ArtConnect/Discover.png';
 import discoverFilter from '../../../images/projects/ArtConnect/DiscoverFilter.png';
 import language from '../../../images/projects/ArtConnect/Language.png';
@@ -59,16 +59,16 @@ const ArtConnect = () => {
                         <div className={`tab-pane fade ${currentTab === 1 ? 'show active' : ''} summary`} id="tab-pane1" role="tabpanel" aria-labelledby="tab1">
                             <div className="card mb-3 summary">
                                 <div className="row g-0 summary">
-                                    <div className="col-md-8 summary">
+                                    <div className="col-lg-8 summary">
                                         <img src={homepage} className="img-fluid" alt="Homepage" />
                                     </div>
-                                    <div className="col-md-4">
-                                        <div className="card-body summary">
-                                            <h5 className="title">Homepage</h5>
+                                    <div className="col-lg-4 summary">
+                                        <div className="card-body summary text">
+                                            <h5 className="title summary">Homepage</h5>
                                             <p className="card-text">Welcome to the homepage of ArtConnect developed using an inviting and minimalistic user interface.
                                             <br /><br />Note: This website is desgined to test knowledge on user centered interface,hence no functionality is attached. 
                                             <br /><br />To interact with the website, click the link beside the project name in the 'Projects' page</p>
-                                            <p className="card-text"><small className="text-body-secondary">Last updated 2025-01-02</small></p>
+                                            <p className="card-text"><small className="lastupdated">Last updated 2025-01-02</small></p>
                                         </div>
                                     </div>
                                 </div>
@@ -76,17 +76,17 @@ const ArtConnect = () => {
                         </div>
 
                         {/* Tab 2 */}
-                        <div className={`tab-pane fade ${currentTab === 2 ? 'show active' : ''}`} id="tab-pane2" role="tabpanel" aria-labelledby="tab2">
-                            <div className="card mb-3">
-                                <div className="row g-0">
-                                    <div className="col-md-8 summary">
+                        <div className={`tab-pane fade ${currentTab === 2 ? 'show active' : ''} summary`} id="tab-pane2" role="tabpanel" aria-labelledby="tab2">
+                            <div className="card mb-3 summary">
+                                <div className="row g-0 summary">
+                                    <div className="col-lg-8 summary">
                                         <img src={discover} className="img-fluid" alt="discover" />
                                     </div>
-                                    <div className="col-md-4">
-                                        <div className="card-body summary">
-                                            <h5 className="title">Discover</h5>
+                                    <div className="col-lg-4 summary">
+                                        <div className="card-body summary text">
+                                            <h5 className="title summary">Discover</h5>
                                             <p className="card-text">On clicking the discover navmenu, you'll brought to this page where you can see all the a user can discover old and new arts of their interest</p>
-                                            <p className="card-text"><small className="text-body-secondary">Last updated 2025-01-02</small></p>
+                                            <p className="card-text"><small className="lastupdated">Last updated 2025-01-02</small></p>
                                         </div>
                                     </div>
                                 </div>
@@ -94,17 +94,17 @@ const ArtConnect = () => {
                         </div>
 
                         {/* Tab 3 */}
-                        <div className={`tab-pane fade ${currentTab === 3 ? 'show active' : ''}`} id="tab-pane3" role="tabpanel" aria-labelledby="tab3">
-                            <div className="card mb-3">
-                                <div className="row g-0">
-                                    <div className="col-md-8 summary">
+                        <div className={`tab-pane fade ${currentTab === 3 ? 'show active' : ''} summary`} id="tab-pane3" role="tabpanel" aria-labelledby="tab3">
+                            <div className="card mb-3 summary">
+                                <div className="row g-0 summary">
+                                    <div className="col-lg-8 summary">
                                         <img src={discoverFilter} className="img-fluid" alt="discoverFilter" />
                                     </div>
-                                    <div className="col-md-4">
-                                        <div className="card-body summary">
-                                            <h5 className="title">Filter</h5>
+                                    <div className="col-lg-4 summary">
+                                        <div className="card-body summary text">
+                                            <h5 className="title summary">Filter</h5>
                                             <p className="card-text">A user can also filter the type of art they want to see on their page. Filter found on the top right corner of the page</p>
-                                            <p className="card-text"><small className="text-body-secondary">Last updated 2025-01-02</small></p>
+                                            <p className="card-text"><small className="lastupdated">Last updated 2025-01-02</small></p>
                                         </div>
                                     </div>
                                 </div>
@@ -112,18 +112,18 @@ const ArtConnect = () => {
                         </div>
 
                         {/* Tab 4 */}
-                        <div className={`tab-pane fade ${currentTab === 4 ? 'show active' : ''}`} id="tab-pane4" role="tabpanel" aria-labelledby="tab4">
-                            <div className="card mb-3">
-                                <div className="row g-0">
-                                    <div className="col-md-8 summary">
+                        <div className={`tab-pane fade ${currentTab === 4 ? 'show active' : ''} summary`} id="tab-pane4" role="tabpanel" aria-labelledby="tab4">
+                            <div className="card mb-3 summary">
+                                <div className="row g-0 summary">
+                                    <div className="col-lg-8 summary">
                                         <img src={language} className="img-fluid" alt="Sample" />
                                     </div>
-                                    <div className="col-md-4">
-                                        <div className="card-body summary">
-                                            <h5 className="title">Universality</h5>
-                                            <p className="card-text">Notice the wold icon at the bottom right? This page is created to be internationaly understood with the madarin and french options. 
+                                    <div className="col-lg-4 summary">
+                                        <div className="card-body summary  text">
+                                            <h5 className="title summary">Universality</h5>
+                                            <p className="card-text">Notice the world icon at the bottom right? This page is created to be internationaly understood with the madarin and french options. 
                                             <br /><br />Side Note: Only the French option works</p>
-                                            <p className="card-text"><small className="text-body-secondary">Last updated 2025-01-02</small></p>
+                                            <p className="card-text"><small className="lastupdated">Last updated 2025-01-02</small></p>
                                         </div>
                                     </div>
                                 </div>
@@ -131,17 +131,17 @@ const ArtConnect = () => {
                         </div>
 
                         {/* Tab 5 */}
-                        <div className={`tab-pane fade ${currentTab === 5 ? 'show active' : ''}`} id="tab-pane5" role="tabpanel" aria-labelledby="tab5">
-                            <div className="card mb-3">
-                                <div className="row g-0">
-                                    <div className="col-md-8 summary">
+                        <div className={`tab-pane fade ${currentTab === 5 ? 'show active' : ''} summary`} id="tab-pane5" role="tabpanel" aria-labelledby="tab5">
+                            <div className="card mb-3 summary">
+                                <div className="row g-0 summary">
+                                    <div className="col-lg-8 summary">
                                         <img src={languageChange} className="img-fluid" alt="Sample" />
                                     </div>
-                                    <div className="col-md-4">
-                                        <div className="card-body summary">
-                                            <h5 className="title">Universality - French</h5>
+                                    <div className="col-lg-4 summary">
+                                        <div className="card-body summary text">
+                                            <h5 className="title summary">Universality - French</h5>
                                             <p className="card-text">The workings of the french page are displayed here. Notice the texts in the buttons. Now, try clicking the filter button.</p>
-                                            <p className="card-text"><small className="text-body-secondary">Last updated 2025-01-02</small></p>
+                                            <p className="card-text"><small className="lastupdated">Last updated 2025-01-02</small></p>
                                         </div>
                                     </div>
                                 </div>
@@ -149,17 +149,17 @@ const ArtConnect = () => {
                         </div>
 
                         {/* Tab 6 */}
-                        <div className={`tab-pane fade ${currentTab === 6 ? 'show active' : ''}`} id="tab-pane5" role="tabpanel" aria-labelledby="tab5">
-                            <div className="card mb-3">
-                                <div className="row g-0">
-                                    <div className="col-md-8 summary">
+                        <div className={`tab-pane fade ${currentTab === 6 ? 'show active' : ''} summary`} id="tab-pane5" role="tabpanel" aria-labelledby="tab5">
+                            <div className="card mb-3 summary">
+                                <div className="row g-0 summary">
+                                    <div className="col-lg-8 summary">
                                         <img src={languageChangeFilter} className="img-fluid" alt="Sample" />
                                     </div>
-                                    <div className="col-md-4">
-                                        <div className="card-body summary">
-                                            <h5 className="title">Universality - French</h5>
+                                    <div className="col-lg-4 summary">
+                                        <div className="card-body summary text">
+                                            <h5 className="title summary">Universality - French</h5>
                                             <p className="card-text">On filter click, you can also notice the language change with the filters.</p>
-                                            <p className="card-text"><small className="text-body-secondary">Last updated 2025-01-02</small></p>
+                                            <p className="card-text"><small className="lastupdated">Last updated 2025-01-02</small></p>
                                         </div>
                                     </div>
                                 </div>
@@ -167,18 +167,18 @@ const ArtConnect = () => {
                         </div>
                         
                         {/* Tab 7 */}
-                        <div className={`tab-pane fade ${currentTab === 7 ? 'show active' : ''}`} id="tab-pane6" role="tabpanel" aria-labelledby="tab6">
-                            <div className="card mb-3">
-                                <div className="row g-0">
-                                    <div className="col-md-8 summary">
+                        <div className={`tab-pane fade ${currentTab === 7 ? 'show active' : ''} summary`} id="tab-pane6" role="tabpanel" aria-labelledby="tab6">
+                            <div className="card mb-3 summary">
+                                <div className="row g-0 summary">
+                                    <div className="col-lg-8 summary">
                                         <img src={cart} className="img-fluid" alt="Sample" />
                                     </div>
-                                    <div className="col-md-4">
-                                        <div className="card-body summary">
-                                            <h5 className="title">Cart</h5>
+                                    <div className="col-lg-4 summary">
+                                        <div className="card-body summary text">
+                                            <h5 className="title summary">Cart</h5>
                                             <p className="card-text">If you explore more and try to add an item to cart, you will be brought to this page (I mean if you simply click cart on the nav bar, you'll can get here too).
                                             <br /><br />I just added this part because the page is beautifully designed. <br /><br />Feel free to explore more!</p>
-                                            <p className="card-text"><small className="text-body-secondary">Last updated 2025-01-02</small></p>
+                                            <p className="card-text"><small className="lastupdated">Last updated 2025-01-02</small></p>
                                         </div>
                                     </div>
                                 </div>

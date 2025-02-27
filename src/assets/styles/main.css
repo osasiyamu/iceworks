@@ -20,9 +20,12 @@
     overflow: auto;
     _background-color: #000000;
     _background-image: linear-gradient(19deg, #000000 0%, #8400c1 100%);
+    /* background-image: url('../images/biopic\ Edited.jpg'); */
     background: linear-gradient(300deg,#29004a,#000000,#140000,#000000,#00003f);
+    /* background: linear-gradient(300deg,#000000,#000000,#6f6e6e,#000000,#000000); */
     background-size: 240% 240%;
-    animation: gradient-animation 10s ease infinite;
+    /* animation: gradient-animation 10s ease infinite; */
+    animation: gradient-animation 20s ease infinite;
     align-items: center;
 }
 @keyframes gradient-animation {
@@ -51,6 +54,7 @@ body{
 }
 .offcanvas-header{
     background-color: #000000;
+    /* background: linear-gradient(300deg,#000000,#000000,#6f6e6e,#000000,#000000); */
     font-weight: 600;
     /* font-size: 100%; */
     border-bottom: 1px solid rgb(255, 253, 121);
@@ -63,6 +67,7 @@ body{
 .offcanvas-body.large {
     background-color: black;
     background: linear-gradient(300deg,#29004a,#000000,#140000,#000000,#00003f);
+    /* background: linear-gradient(300deg,#000000,#000000,#6f6e6e,#000000,#000000); */
     background-size: 240% 240%;
     animation: gradient-animation 10s ease infinite;
     font-size: 100%;
@@ -85,7 +90,3 @@ a:hover {
     color: rgb(169, 168, 76);
 }
 
-hr, img {
-  /* position: relative; Reset position to avoid interfering */
-  /* z-index: 1; Ensure it doesn’t overlap */
-}

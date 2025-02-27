@@ -57,16 +57,16 @@ const SearchMeUp = () => {
                         <div className="tab-content searchmeup">
                             {/* Tab 1 */}
                             <div className={`tab-pane fade ${currentTab === 1 ? 'show active' : ''}`} id="tab-pane1" role="tabpanel" aria-labelledby="tab1">
-                                <div className="card mb-3">
+                                <div className="card mb-3 summary">
                                     <div className="row g-0">
                                         <div className="col-md-8 summary">
                                             <img src={homepage} className="img-fluid" alt="Homepage" />
                                         </div>
-                                        <div className="col-md-4">
+                                        <div className="col-md-4 summary">
                                             <div className="card-body">
-                                                <h5 className="title">Homepage</h5>
+                                                <h5 className="title summary">Homepage</h5>
                                                 <p className="card-text">This card contains details about the homepage interface.</p>
-                                                <p className="card-text"><small className="text-body-secondary">Last updated 3 mins ago</small></p>
+                                                <p className="card-text"><small className="lastupdated">Last updated 3 mins ago</small></p>
                                             </div>
                                         </div>
                                     </div>
@@ -75,16 +75,16 @@ const SearchMeUp = () => {
 
                             {/* Tab 2 */}
                             <div className={`tab-pane fade ${currentTab === 2 ? 'show active' : ''}`} id="tab-pane2" role="tabpanel" aria-labelledby="tab2">
-                                <div className="card mb-3">
+                                <div className="card mb-3 summary">
                                     <div className="row g-0">
                                         <div className="col-md-8 summary">
                                             <img src={signup} className="img-fluid" alt="Signup" />
                                         </div>
-                                        <div className="col-md-4">
+                                        <div className="col-md-4 summary">
                                             <div className="card-body">
-                                                <h5 className="title">Signup</h5>
+                                                <h5 className="title summary">Signup</h5>
                                                 <p className="card-text">Details about the signup process are displayed here.</p>
-                                                <p className="card-text"><small className="text-body-secondary">Last updated 5 mins ago</small></p>
+                                                <p className="card-text"><small className="lastupdated">Last updated 5 mins ago</small></p>
                                             </div>
                                         </div>
                                     </div>
@@ -93,16 +93,16 @@ const SearchMeUp = () => {
 
                             {/* Tab 3 */}
                             <div className={`tab-pane fade ${currentTab === 3 ? 'show active' : ''}`} id="tab-pane3" role="tabpanel" aria-labelledby="tab3">
-                                <div className="card mb-3">
+                                <div className="card mb-3 summary">
                                     <div className="row g-0">
                                         <div className="col-md-8 summary">
                                             <img src={signin} className="img-fluid" alt="Signin" />
                                         </div>
-                                        <div className="col-md-4">
+                                        <div className="col-md-4 summary">
                                             <div className="card-body">
-                                                <h5 className="title">Signin</h5>
+                                                <h5 className="title summary">Signin</h5>
                                                 <p className="card-text">This section contains information about the signin process.</p>
-                                                <p className="card-text"><small className="text-body-secondary">Last updated 10 mins ago</small></p>
+                                                <p className="card-text"><small className="lastupdated">Last updated 10 mins ago</small></p>
                                             </div>
                                         </div>
                                     </div>
@@ -111,16 +111,16 @@ const SearchMeUp = () => {
 
                             {/* Tab 4 */}
                             <div className={`tab-pane fade ${currentTab === 4 ? 'show active' : ''}`} id="tab-pane4" role="tabpanel" aria-labelledby="tab4">
-                                <div className="card mb-3">
+                                <div className="card mb-3 summary">
                                     <div className="row g-0">
                                         <div className="col-md-8 summary">
                                             <img src={search1} className="img-fluid" alt="Sample" />
                                         </div>
-                                        <div className="col-md-4">
+                                        <div className="col-md-4 summary">
                                             <div className="card-body">
-                                                <h5 className="title">Search</h5>
+                                                <h5 className="title summary">Search</h5>
                                                 <p className="card-text">This section contains sample content related to the sample image.</p>
-                                                <p className="card-text"><small className="text-body-secondary">Last updated just now</small></p>
+                                                <p className="card-text"><small className="lastupdated">Last updated just now</small></p>
                                             </div>
                                         </div>
                                     </div>
@@ -129,16 +129,16 @@ const SearchMeUp = () => {
 
                             {/* Tab 5 */}
                             <div className={`tab-pane fade ${currentTab === 5 ? 'show active' : ''}`} id="tab-pane5" role="tabpanel" aria-labelledby="tab5">
-                                <div className="card mb-3">
+                                <div className="card mb-3 summary">
                                     <div className="row g-0">
                                         <div className="col-md-8 summary">
                                             <img src={search2} className="img-fluid" alt="Sample" />
                                         </div>
-                                        <div className="col-md-4">
+                                        <div className="col-md-4 summary">
                                             <div className="card-body">
-                                                <h5 className="title">Search</h5>
+                                                <h5 className="title summary">Search</h5>
                                                 <p className="card-text">This section contains sample content related to the sample image.</p>
-                                                <p className="card-text"><small className="text-body-secondary">Last updated just now</small></p>
+                                                <p className="card-text"><small className="lastupdated">Last updated just now</small></p>
                                             </div>
                                         </div>
                                     </div>
@@ -147,16 +147,16 @@ const SearchMeUp = () => {
 
                             {/* Tab 6 */}
                             <div className={`tab-pane fade ${currentTab === 6 ? 'show active' : ''}`} id="tab-pane5" role="tabpanel" aria-labelledby="tab5">
-                                <div className="card mb-3">
+                                <div className="card mb-3 summary">
                                     <div className="row g-0">
                                         <div className="col-md-8 summary">
                                             <img src={test} className="img-fluid" alt="Sample" />
                                         </div>
-                                        <div className="col-md-4">
+                                        <div className="col-md-4 summary">
                                             <div className="card-body">
-                                                <h5 className="title">Test using Selenium</h5>
+                                                <h5 className="title summary">Test using Selenium</h5>
                                                 <p className="card-text">This section contains sample content related to the sample image.</p>
-                                                <p className="card-text"><small className="text-body-secondary">Last updated just now</small></p>
+                                                <p className="card-text"><small className="lastupdated">Last updated just now</small></p>
                                             </div>
                                         </div>
                                     </div>
@@ -165,16 +165,16 @@ const SearchMeUp = () => {
                             
                             {/* Tab 7 */}
                             <div className={`tab-pane fade ${currentTab === 7 ? 'show active' : ''}`} id="tab-pane6" role="tabpanel" aria-labelledby="tab6">
-                                <div className="card mb-3">
+                                <div className="card mb-3 summary">
                                     <div className="row g-0">
                                         <div className="col-md-8 summary">
                                             <img src={sampleimg} className="img-fluid" alt="Sample" />
                                         </div>
-                                        <div className="col-md-4">
+                                        <div className="col-md-4 summary">
                                             <div className="card-body">
-                                                <h5 className="title">Sample Image</h5>
+                                                <h5 className="title summary">Sample Image</h5>
                                                 <p className="card-text">This section contains sample content related to the sample image.</p>
-                                                <p className="card-text"><small className="text-body-secondary">Last updated just now</small></p>
+                                                <p className="card-text"><small className="lastupdated">Last updated just now</small></p>
                                             </div>
                                         </div>
                                     </div>

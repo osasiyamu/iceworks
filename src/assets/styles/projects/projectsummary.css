@@ -36,6 +36,7 @@
     /* border: 2px solid white; */
 }
 .tab-content.artconnect {
+    /* height: 800px; */
     height: 80vh;
     margin-left: -0.25%;
     margin-top: 2%;
@@ -57,8 +58,11 @@
     margin-bottom: -4%;
     /* border: 2px solid white; */
 }
+.row.g-0.summary{
+    margin-top: -3%;
+}
 .card.mb-3.summary{
-    align-items: center;
+    /* align-items: center; */
     /* border: 2px solid white; */
 }
 .row.g-0.summary{
@@ -67,7 +71,14 @@
 }
 .col-md-8.summary{
     /* margin-top: .25%; */
-    height: 150%;
+    height: 100%;
+    width: 60%;
+    margin-left: 1.5%;
+    /* border: 2px solid white; */
+}
+.col-md-8.summary{
+    /* margin-top: .25%; */
+    height: 100%;
     width: 60%;
     margin-left: 1.5%;
     /* border: 2px solid white; */
@@ -77,9 +88,41 @@
     /* margin-left: 2%; */
     border-radius: 25px;
     /* width: 90%; */
-    height: 85%;
+    height: 40rem;
     /* max-height: 1px; */
 }
+
+
+/* For testing in ArtConnect tab 2 */
+.col-lg-8.summary{
+    /* margin-top: -4.5%; */
+    height: 100%;
+    width: 60%;
+    margin-left: 1.5%;
+    /* align-items: center; */
+    /* border: 2px solid white; */
+}
+.col-lg-8.summary img{
+    /* margin-top: -5%; */
+    /* margin-left: 5%; */
+    border-radius: 25px;
+    /* width: 100%;
+    height: 100%; */
+    /* max-height: 1px; */
+}
+.col-lg-4.summary{
+    margin-left: 2%;
+    /* border: 2px solid white; */
+}
+.card-body.summary.text {
+    /* color: rgb(255, 255, 255); */
+    background-color: black;
+    font-size: 1rem;
+    margin-top: 0%;
+    margin-left: 0%;
+    width: 100%;
+}
+/* --------------------------------------- */
 
 .nav-link.summary, .page-link.summary{ /*It affects the button in the about page*/
     height: 2rem;
@@ -87,21 +130,22 @@
     color: white;
 }
 
-.card.mb-3 {
+.card.mb-3.summary{
     height: 33.0rem;
-    width: 99%;
+    width: 100%;
     background-color: black;
 }
 .card-body.summary {
     /* color: rgb(255, 255, 255); */
     background-color: black;
+    font-size: 1rem;
     margin-top: -10%;
     margin-left: 5%;
     width: 100%;
 }
-.tab-pane.fade.show.summary{
+.tab-pane.fade.show.active.summary{
     /* margin-top: 5%; */
-    align-items: center;
+    /* align-items: center; */
     /* background-color: black; */
     /* border: 2px solid yellow;
     border-color: yellow; */
@@ -122,5 +166,124 @@
     box-shadow: 0px 10px 30px rgb(92, 92, 34);
 }
 .tab-content.artconnect{
-    /* align-items: center; */
+    align-items: center;
+    /* height: fit-content; */
+}
+.title.summary{
+    font-weight: bolder;
+}
+.card-text{
+    font-weight: 350;
+}
+.lastupdated{
+    color: rgb(167, 165, 13);
+}
+
+@media screen and (max-width: 1014.44px) {
+    .row.g-0.summary{
+        /* margin-top: -100px; */
+        /* border: 2px solid green; */
+        display: block;
+        align-items: center;
+        /* flex-direction: row; */
+    }
+    .col-md-3.summary{
+        margin-top: -25%;
+        height: 100%;
+        width: 100%;
+        margin-left: 0.30%;
+        border: 2px solid rgb(198, 178, 0);
+        /* border: 2px solid white; */
+    }
+    .col-md-8.summary{
+        /* display: none; */
+        margin-top: -10%;
+        height: 80%;
+        width: 85%;
+        margin-left: 0.30%;
+        /* border: 2px solid rgb(198, 0, 0); */
+        /* border: 2px solid white; */
+    }
+    .col-md-8.summary img{
+        /* margin-top: 8%; */
+        /* margin-left: 2%; */
+        border-radius: 25px;
+        width: 100%;
+        height: 100%;
+        /* max-height: 1px; */
+    }
+    .col-lg-8.summary{
+        margin-top: -25%;
+        margin-left: 2%;
+        margin-right: 2%;
+        height: 70%;
+        width: fit-content;
+        /* overflow-y: scroll; */
+        /* border: 2px solid yellow; */
+    }
+    .col-lg-8.summary img{
+        height: 100%;
+        width: 100%;
+        overflow-y: scroll;
+        /* border: 2px solid yellow; */
+    }
+    .card-body.summary{
+        margin-top: 2%;
+        margin-left: 0%;
+        height: 20%;
+        width: auto;
+        font-size: 1rem;
+        /* background-color: white; */
+        /* border: 2px solid white; */
+    }
+    .col-md-4 summary.summary{
+        margin-top: 2%;
+        height: 50%;
+        overflow-y: scroll;
+        /* border: 2px solid yellow; */
+    }
+    .col-lg-4.summary{
+        margin-left: 0%;
+        padding-top: -10px;
+        height: fit-content;
+        width: fit-content;
+        /* overflow-y: scroll; */
+        /* border: 2px solid yellow; */
+    }
+    .artconnectTitle{
+        
+    }
+    .icecutsTitle{
+        margin-top: 5px;
+    }
+    .searchmeupTitle{
+        
+    }
+    .projectBack {
+        margin-top: 30%;
+        margin-left: 8px;
+        position: fixed;
+    }
+    .artconnect {
+        margin-top: 5px;
+        margin-left: 12%;
+    }
+    .icecuts {
+        margin-top: 5px;
+        margin-left: 12%;
+    }
+    .searchmeup {
+        margin-top: 8px;
+        margin-left: 12%;
+    }
+    .tab-content.artconnect {
+        height: 95vh;
+    }
+    .tab-content.icecuts {
+        height: 95vh;
+    }
+    .tab-content.searchmeup {
+        height: 95vh;
+    }
+  
 }

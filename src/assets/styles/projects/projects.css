@@ -124,6 +124,7 @@
 
 .description {
     margin-bottom: 5rem;
+    font-weight: 510;
 }
 
 .card-title i {
@@ -132,10 +133,10 @@
 
 @media screen and (max-width: 767.78px) {
     .projects {
-        margin-left: 5%;
+        margin-left: 7%;
     }
     .goBack{
-        margin-left: -4%;
+        margin-left: -5.5%;
     }
     .projectList{
         width: 90%
@@ -168,8 +169,6 @@
         font-size: 150%;
     }
     .description {
-        /* color: white;
-        width: 100%; */
-        /* margin-left: -2rem; */
+        font-weight: 300;
     }
 }

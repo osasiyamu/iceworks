@@ -18,7 +18,7 @@ const Projects = () => {
                 <div className="project">
                     <a href="https://osasiyamu.github.io/artconnect/" target="">
                         <div className="row g-0">
-                            <div className="col-md-4">
+                            <div className="col-md-4 summary">
                                 <img src={artconnectHome} className="img-fluid project picture" alt="..."></img>
                             </div>
                             <div className="col-md-8">
@@ -50,7 +50,7 @@ const Projects = () => {
                                 </div>
                             </div>
 
-                            <div className="col-md-4">
+                            <div className="col-md-4 summary">
                                 <img src={iceCutsHome} className="img-fluid project picture" alt="..."></img>
                             </div>
                         </div>
@@ -60,7 +60,7 @@ const Projects = () => {
                 <div className="project">
                     <a href="/iceworks/#/searchmeup">
                         <div className="row g-0">
-                            <div className="col-md-4">
+                            <div className="col-md-4 summary">
                                 <img src={searchMeUpHome} className="img-fluid project picture" alt="..."></img>
                             </div>
                             <div className="col-md-8">
@@ -91,7 +91,7 @@ const Projects = () => {
                                 </div>
                             </div>
 
-                            <div className="col-md-4">
+                            <div className="col-md-4 summary">
                                 <img src={surveyMonkeyHome} className="img-fluid project picture" alt="..."></img>
                             </div>
                         </div>

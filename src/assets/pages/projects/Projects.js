@@ -18,12 +18,12 @@ const Projects = () => {
                 <div className="project">
                     <a href="/iceworks/#/artconnect" target="">
                         <div className="row g-0">
-                            <div className="col-md-4">
+                            <div className="col-md-4 summary">
                                 <img src={artconnectHome} className="img-fluid project picture" alt="..."></img>
                             </div>
                             <div className="col-md-8">
                                 <div className="card-body">
-                                    <h5 className="card-title">ArtConnect<a href="https://osasiyamu.github.io/artconnect/"><i class="bi bi-box-arrow-up-right"></i></a></h5>
+                                    <h5 className="card-title">ArtConnect<a href="https://osasiyamu.github.io/artconnect/"><i className="bi bi-box-arrow-up-right"></i></a></h5>
                                     <p className="description">
                                         An interactive social platform designed to foster creativity and artistic collaboration, 
                                         allowing users to showcase their artwork, find inspiration, and connect with other artists. ArtConnect promotes a supportive creative community with features for posting art, 
@@ -39,12 +39,12 @@ const Projects = () => {
                 <div className="project">
                     <a href="/iceworks/#/icecuts" target="">
                         <div className="row g-0">
-                            <div className="col-md-4">
+                            <div className="col-md-4 summary">
                                 <img src={iceCutsHome} className="img-fluid project picture" alt="..."></img>
                             </div>
                             <div className="col-md-8">
                                 <div className="card-body">
-                                    <h5 className="card-title">IceCuts<a href="https://osasiyamu.github.io/IceCuts/"><i class="bi bi-box-arrow-up-right"></i></a></h5>
+                                    <h5 className="card-title">IceCuts<a href="https://osasiyamu.github.io/IceCuts/"><i className="bi bi-box-arrow-up-right"></i></a></h5>
                                     <p className="description">
                                         A salon booking application created to simplify the process of scheduling and managing haircut appointments. Users can browse available time slots, select preferred stylists, 
                                         and receive reminders for upcoming appointments, making it easy and convenient to secure a spot without the typical wait.
@@ -59,7 +59,7 @@ const Projects = () => {
                 <div className="project">
                     <a href="/iceworks/#/searchmeup">
                         <div className="row g-0">
-                            <div className="col-md-4">
+                            <div className="col-md-4 summary">
                                 <img src={searchMeUpHome} className="img-fluid project picture" alt="..."></img>
                             </div>
                             <div className="col-md-8">
@@ -79,7 +79,7 @@ const Projects = () => {
                 <div className="project">
                     <a href="/iceworks/#/surveymonkey">
                         <div className="row g-0">
-                            <div className="col-md-4">
+                            <div className="col-md-4 summary">
                                 <img src={surveyMonkeyHome} className="img-fluid project picture" alt="..."></img>
                             </div>
                             <div className="col-md-8">
